@@ -1,0 +1,1 @@
+nmap -sC -sV -p- -T5 --min-rate=9326 10.0.0.1-254 -oN /path/output.txt
